@@ -2,12 +2,10 @@
   "name": "thomas-ultimate-number-game",
   "version": "1.0.0",
   "description": "Thomas's Ultimate Number Game",
-  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [
     "react",
@@ -19,7 +17,9 @@
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
   }
 }
